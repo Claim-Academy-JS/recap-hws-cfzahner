@@ -22,3 +22,16 @@ while (currentNum <= 100) {
     console.log(currentNum);
   }
 }
+
+let currentNumb = 1;
+for (let currentNumb = 1; currentNumb <= 100; currentNumb++) {
+  if (currentNumb % 3 === 0 && currentNumb % 5 === 0) {
+    console.log(`Fizz! Buzz!`);
+  } else if (currentNumb % 3 === 0) {
+    console.log(`Fizz!`);
+  } else if (currentNumb % 5 === 0) {
+    console.log(`Buzz!`);
+  } else {
+    console.log(currentNumb);
+  }
+}
