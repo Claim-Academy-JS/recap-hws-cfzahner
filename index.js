@@ -1,25 +1,23 @@
-function tripler(num) {
-  return num * 3;
+const Leanne = new Person(
+  "Leanne Graham",
+  "Bret",
+  "Sincere@april.biz",
+  "1-770-736-8031 x56442",
+  "hildegard.org"
+);
+//declaring the function
+function Person(name, username, email, phone, website) {
+  (this.name = name),
+    (this.username = username),
+    (this.email = email),
+    (this.phone = phone),
+    (this.website = website);
+
+  Person.prototype.getBizCard = function() {
+    return `${this.name}
+    ${this.email}
+    ${this.phone}`;
+  };
 }
-
-function multiply(num1, num2) {
-  return num1 * num2;
-}
-
-function divide(num1, num2) {
-  return num1 / num2;
-}
-
-function remainder(num1, num2) {
-  return num1 % num2;
-}
-
-const tripled = tripler(5);
-
-const mult = multiply(tripled, 12);
-
-const div = divide(mult, 2);
-
-const rem = remainder(div, 3);
-
-console.log(rem);
+const Lee = new Person();
+console.log(Leanne.getBizCard());
