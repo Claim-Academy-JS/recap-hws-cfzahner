@@ -1,23 +1,12 @@
-const Leanne = new Person(
-  "Leanne Graham",
-  "Bret",
-  "Sincere@april.biz",
-  "1-770-736-8031 x56442",
-  "hildegard.org"
-);
-//declaring the function
-function Person(name, username, email, phone, website) {
-  (this.name = name),
-    (this.username = username),
-    (this.email = email),
-    (this.phone = phone),
-    (this.website = website);
+let string = "this is an example";
+string = string.replace("example", "knife");
+string = string.toUpperCase();
+console.log(string);
 
-  Person.prototype.getBizCard = function() {
-    return `${this.name}
-    ${this.email}
-    ${this.phone}`;
-  };
+const graduation = new Date(`June 26 2020`);
+const start = new Date(Date.now());
+
+function showRemaining() {
+  let total = graduation - today;
+  return today;
 }
-const Lee = new Person();
-console.log(Leanne.getBizCard());
