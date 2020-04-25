@@ -1,13 +1,8 @@
 :root {
   color:
-  --primary-color: grey
-  --secondary-color:  #487A90
-  --tertiary-color: #D99830
-
-
-  width: 500px;
-  border: 1px solid grey;
-
+  --primary-color: grey;
+  --secondary-color:  #487A90;
+  --tertiary-color: #D99830;
 }
 
 .screen-reader-text {
@@ -18,52 +13,28 @@
 
 
 header {
-  text-align: center;
-margin-top: 20px;
-  padding: 20px
-
+  display: flex;
+  justify-content: center;
 
 }
 
 body {
-  color: white;
-  text-align: right;
-  margin-right: 20px;
-  font-size: 15px;
-  font-family: 'Lobster', cursive;
-  line-height: 1.65;
-  margin-top: 10px;
-margin-bottom: 30px;
+  type-scale: 20.00px;
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.15;
-  text-align: right;
-}
-
-
-header img {
-width:  200px;
-height: 100px;
-align: center;
+li {
+  list-style-type: none;
 
 }
 
-
-img {
-height: 300px;
-width: 300px;
-align: left center;
-border: solid 2px rgb(255, 189, 65);
-margin-right: 60px;
-padding: 40px;
-}
-
-
-
-footer {
-  align: bottom;
+a {
+  text-decoration: none;
 }
