@@ -1,0 +1,68 @@
+:root {
+  color:
+  --primary-color: rgb(255, 189, 65)
+  --secondary-color:  white;
+  --tertiary-color: rgb(80, 80, 66)
+
+  width: 500px;
+  border: 1px solid grey;
+
+}
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+header {
+  text-align: center;
+margin-top: 20px;
+  padding: 20px
+
+
+}
+
+body {
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 15px;
+  font-family: 'Lobster', cursive;
+  line-height: 1.65;
+  margin-top: 10px;
+margin-bottom: 30px;
+
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  text-align: right;
+}
+
+
+header img {
+width:  200px;
+height: 100px;
+align: center;
+
+}
+
+
+img {
+height: 300px;
+width: 300px;
+align: left center;
+border: solid 2px rgb(255, 189, 65);
+margin-right: 60px;
+padding: 40px;
+}
+
+
+
+footer {
+  align: bottom;
+}
