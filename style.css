@@ -61,10 +61,29 @@ nav ul{
   margin-top: 0em;
 }
 
+footer: {
+  padding: 1rem;
+}
+
+form {
+  padding: 1rem 0.5rem;
+}
+
+form > .flex {
+  margin: 0.5rem;
+}
+
+input,
+textarea {
+border: solid thin blueviolet;
+border-radius: 3px;
+}
+
 .button {
   background-color: salmon;
   min-width: 2rem;
   padding: 1rem;
+  text-transform: uppercase;
 }
 
 .flex-flex-direction--column {
@@ -125,11 +144,11 @@ header {
   padding: 1rem;
 }
 
-
-
-
 img {
   height: auto;
   max-width: 100%;
 }
+
+
+
 
