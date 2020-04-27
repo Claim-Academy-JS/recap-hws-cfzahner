@@ -36,13 +36,6 @@ h1 {
 h2 {font-size: 2.441em;}
 
 
-header {
-  display: flex;
-  justify-content: center;
-  background-color: var(--secondary-color);
-  margin-bottom: 0em;
-}
-
 h2 {
   margin-left: 2em;
   color: white;
@@ -68,6 +61,24 @@ nav ul{
   margin-top: 0em;
 }
 
+.button {
+  background-color: salmon;
+  min-width: 2rem;
+  padding: 1rem;
+}
+
+.flex-flex-direction--column {
+  flex-direction: column;
+}
+
+.flex-align-items--center {
+  align-items: center;
+}
+
+.text-align--center {
+  text-align: center;
+}
+
 ul {
 background-color: grey;
 color: white;
@@ -90,14 +101,35 @@ a {
   color: white;
 }
 
-img {
-  max-width: 300px;
+a:link {
+  color: white;
 }
 
-main img {
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-padding: 10px;
-width:200px;
+a:visited {
+  color: navy;
 }
+
+a:focus
+a:hover {
+  color: salmon
+}
+
+a:active {
+  color: yellow;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+
+
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
