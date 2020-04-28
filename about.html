@@ -7,7 +7,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
 
   <link rel="stylesheet" href="style.css">
 
@@ -16,29 +17,32 @@
 </head>
 <body>
   <div>
-    <header>
-      <h1>About Me</h1>
+    <div>
+      <div class="screen-reader-text"> <h1>About Me</h1></div>
+    <header class="text-align--center">
       <figure>
         <img src="https://marketing.dcassetcdn.com/blog/2019/02/40-queen-logos/Queen-Bee.jpg
         " alt="logo">
       </figure>
     </header>
-
-
   </div>
 
-  <nav class="menu">
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./gallery.html">Gallery</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
 
-  </nav>
+      <nav>
+        <ul>
+          <li><a href="#" class="button">About</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+      </nav>
+
+
+
+
 
   <main>
-    <section>
+    <section class="flex flex-align-items--center flex-flex-direction--column">
       <h2>A little hello </h2>
       <p>
         <strong>Hi there!</strong> My name is Courtney Zahner. I'm from
@@ -47,10 +51,11 @@
 
       <figure>
         <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/83004593_581859319028770_7559106337464909824_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=KhQvZq-JV98AX_-uaJP&_nc_ht=scontent-ort2-1.xx&oh=3e2f57a1e3674fccecb14826a9a48bcb&oe=5ECB22D2" alt="good times">
+        <figcaption class="text-align--center">good times</figcaption>
       </figure>
     </section>
 
-    <section>
+    <section class="flex flex-align-items--center flex-flex-direction--column">
       <h2>Quarantine Life</h2>
       <p><strike>Listed below are hobbies I enjoy:</strike></p>
       <ul>
@@ -61,7 +66,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="flex flex-align-items--center flex-flex-direction--column">
       <h2>Career</h2>
       <ol>
         <li>Touring internationally with my friends</li>
@@ -85,10 +90,5 @@
 
 
 </body>
-
-
-
-
-
 
 </html>
